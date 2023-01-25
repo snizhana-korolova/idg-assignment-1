@@ -1,3 +1,5 @@
+
+
 body,html {
     height: 100%;
     width: 100%;
@@ -5,7 +7,6 @@ body,html {
 }
 
 .sky {
-    background-color:rgb(224, 239, 246);
     height: 40%;
 }
 
@@ -14,6 +15,5 @@ body,html {
 }
 
 .ground {
-    background-color: rgb(208, 237, 208);
     height: 60%;
 }

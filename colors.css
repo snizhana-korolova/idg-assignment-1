@@ -1,0 +1,12 @@
+:root {
+  --main-bg-ground-color: rgb(208, 237, 208);
+  --main-bg-sky-color: rgb(224, 239, 246);
+}
+
+.ground {
+  background-color: var(--main-bg-ground-color);
+}
+
+.sky {
+  background-color: var(--main-bg-sky-color);
+}
