@@ -1,10 +1,17 @@
 :root {
   --main-bg-ground-color: rgb(208, 237, 208);
   --main-bg-sky-color: rgb(224, 239, 246);
+  --main-bg-sky-cloud: rgb(157, 197, 234);
 }
 
 .ground {
   background-color: var(--main-bg-ground-color);
+}
+
+.cloud-part1,
+.cloud-part2,
+.cloud-part3 {
+  background-color: var(--main-bg-sky-cloud);
 }
 
 .sky {

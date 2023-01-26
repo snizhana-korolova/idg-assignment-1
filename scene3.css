@@ -40,7 +40,6 @@ html {
   height: 22px;
   width: 58px;
   border-radius: 100px / 80px 55px 0px 0px;
-  background-color: rgb(157, 197, 234);
 }
 
 .cloud-part2 {
@@ -48,7 +47,6 @@ html {
   width: 60px;
   border-radius: 100px / 45px 60px 0px 0px;
   margin-left: -10px;
-  background-color: rgb(157, 197, 234);
 }
 
 .cloud-part3 {
@@ -56,5 +54,4 @@ html {
   width: 55px;
   border-radius: 100px / 55px 55px 0px 0px;
   margin-left: 10px;
-  background-color: rgb(157, 197, 234);
 }
