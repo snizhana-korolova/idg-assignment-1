@@ -1,19 +1,60 @@
-
-
-body,html {
-    height: 100%;
-    width: 100%;
-    margin: 0px;
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
 }
 
 .sky {
-    height: 40%;
+  height: 40%;
 }
 
 .background {
-    width: 100vw;
+  width: 100vw;
 }
 
 .ground {
-    height: 60%;
+  height: 60%;
+}
+
+.container--cloud {
+    position: absolute;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.container--left-cloud {
+    left: 140px;
+    height: 10px;
+}
+
+.container--right-cloud {
+    left: 350px;
+    height: 40px;
+}
+
+
+.cloud-part1 {
+  height: 22px;
+  width: 58px;
+  border-radius: 100px / 80px 55px 0px 0px;
+  background-color: rgb(157, 197, 234);
+}
+
+.cloud-part2 {
+  height: 17px;
+  width: 60px;
+  border-radius: 100px / 45px 60px 0px 0px;
+  margin-left: -10px;
+  background-color: rgb(157, 197, 234);
+}
+
+.cloud-part3 {
+  height: 14px;
+  width: 55px;
+  border-radius: 100px / 55px 55px 0px 0px;
+  margin-left: 10px;
+  background-color: rgb(157, 197, 234);
 }
