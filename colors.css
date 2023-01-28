@@ -8,9 +8,7 @@
   background-color: var(--main-bg-ground-color);
 }
 
-.cloud-part1,
-.cloud-part2,
-.cloud-part3 {
+.cloud-container__cloud {
   background-color: var(--main-bg-sky-cloud);
 }
 

@@ -17,24 +17,23 @@ html {
   height: 60%;
 }
 
-.container--cloud {
-    position: absolute;
-    top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+.cloud-container {
+  position: absolute;
+  top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
-.container--left-cloud {
-    left: 140px;
-    height: 10px;
+.cloud-container--left {
+  left: 140px;
+  height: 10px;
 }
 
-.container--right-cloud {
-    left: 350px;
-    height: 40px;
+.cloud-container--right {
+  left: 350px;
+  height: 40px;
 }
-
 
 .cloud-part1 {
   height: 22px;
