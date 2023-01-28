@@ -1,7 +1,11 @@
 :root {
-  --main-bg-ground-color: rgb(208, 237, 208);
+  --main-bg-ground-color: rgb(232, 241, 232);
   --main-bg-sky-color: rgb(224, 239, 246);
-  --main-bg-sky-cloud: rgb(157, 197, 234);
+  --main-sky-cloud: rgb(161, 228, 244);
+  --green1-color: rgb(175, 214, 175);
+  --green2-color: rgb(150, 203, 150);
+  --green3-color: rgb(72, 132, 72);
+  --green4-color: rgb(34, 69, 34);
 }
 
 .ground {
@@ -9,9 +13,25 @@
 }
 
 .cloud-container__cloud {
-  background-color: var(--main-bg-sky-cloud);
+  background-color: var(--main-sky-cloud);
 }
 
 .sky {
   background-color: var(--main-bg-sky-color);
+}
+
+.bush-part--left {
+  background-color: var(--green4-color);
+}
+
+.bush-part--center {
+  background-color: var(--green3-color);
+}
+
+.bush-part--right {
+  background-color: var(--green3-color);
+}
+
+.bush-part--single {
+  background-color: var(--green1-color);
 }
