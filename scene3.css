@@ -224,3 +224,17 @@ html {
   background: #053b09;
   left: 126px;
 }
+.front-wall__window {
+  display: grid;
+  grid-template-columns: repeat(4, 13px);
+  grid-template-rows: 13px 13px 28px;
+  grid-gap: 13px;
+  padding-top: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.grid-window {
+  background-color: black;
+}
