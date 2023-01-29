@@ -6,7 +6,11 @@
   --green2-color: rgb(125, 169, 125);
   --green3-color: rgb(72, 132, 72);
   --green4-color: rgb(34, 69, 34);
-  --tree-part-trunk-color: black;
+  --black-color: black;
+  --building-wall-pink1-color: rgb(224, 94, 94);
+  --building-roof-green-color: #053b09;
+  --building-window-white-color: aliceblue;
+  --building-wall-pink2-color: rgb(228, 154, 154);
 }
 
 .ground {
@@ -46,5 +50,33 @@
 }
 
 .tree-part--trunk {
-  background-color: var(--tree-part-trunk-color);
+  background-color: var(--black-color);
+}
+
+.building__front-wall,
+.building--large .building__right-wall,
+.building__second-floor__front-wall,
+.building__second-floor__right-wall {
+  background-color: var(--building-wall-pink1-color);
+}
+
+.building__right-wall,
+.grid-window,
+.building--large .building__roof,
+.round-window,
+.building__second-floor__roof {
+  background-color: var(--black-color);
+}
+
+.building__roof {
+  background-color: var(--building-roof-green-color);
+}
+
+.window--grid-white,
+.building__right-wall--windows {
+  background-color: var(--building-window-white-color);
+}
+
+.building--large .building__front-wall {
+  background-color: var(--building-wall-pink2-color);
 }

@@ -201,7 +201,6 @@ html {
 .building__front-wall {
   width: 140px;
   height: 150px;
-  background-color: rgb(224, 94, 94);
   clip-path: polygon(0% 100%, 0% 20%, 20% 0%, 80% 0%, 100% 20%, 100% 100%);
 }
 
@@ -209,7 +208,6 @@ html {
   position: absolute;
   width: 100px;
   height: 120px;
-  background-color: rgb(7, 7, 7);
   top: 30px;
   left: 140px;
 }
@@ -220,7 +218,6 @@ html {
   width: 100px;
   height: 30px;
   transform: skew(43deg);
-  background: #053b09;
   left: 126px;
 }
 .front-wall__window {
@@ -233,21 +230,13 @@ html {
   padding-right: 20px;
 }
 
-.grid-window {
-  background-color: black;
-}
-
-.building-small .right-wall__window {
+.building--small .right-wall__window {
   display: grid;
   grid-template-columns: repeat(3, 8px);
   grid-template-rows: 17px 17px;
   grid-gap: 13px;
   padding-top: 30px;
   padding-left: 25px;
-}
-
-.window--grid-white {
-  background-color: aliceblue;
 }
 
 .building--large {
@@ -260,7 +249,6 @@ html {
   position: absolute;
   width: 250px;
   height: 230px;
-  background-color: rgb(228, 154, 154);
   clip-path: polygon(0% 100%, 0% 25%, 25% 0%, 75% 0%, 100% 25%, 100% 100%);
 }
 
@@ -268,7 +256,6 @@ html {
   position: absolute;
   width: 90px;
   height: 180px;
-  background-color: rgb(224, 94, 94);
   top: 50px;
   left: 240px;
 }
@@ -278,7 +265,6 @@ html {
   margin-right: 20px;
   width: 90px;
   height: 50px;
-  background: black;
   left: 214px;
   transform: skew(47deg);
 }
@@ -292,10 +278,6 @@ html {
   padding-left: 16px;
 }
 
-.building__right-wall--windows {
-  background-color: white;
-}
-
 .building__second-floor {
   position: absolute;
   left: 50px;
@@ -306,7 +288,6 @@ html {
   position: absolute;
   width: 124px;
   height: 100px;
-  background-color: rgb(224, 94, 94);
   clip-path: polygon(0% 100%, 0% 50%, 50% 0%, 50% 0, 100% 50%, 100% 100%);
   top: 30px;
   left: 12px;
@@ -317,7 +298,6 @@ html {
   width: 27px;
   height: 27px;
   border-radius: 50%;
-  background-color: black;
   top: 25px;
   left: 45px;
 }
@@ -326,7 +306,6 @@ html {
   position: absolute;
   width: 92px;
   height: 50px;
-  background-color: rgb(224, 94, 94);
   top: 80px;
   left: 135px;
 }
@@ -336,7 +315,6 @@ html {
   width: 91px;
   height: 50px;
   transform: skew(51deg);
-  background: black;
   top: 30px;
   left: 105px;
 }
@@ -349,8 +327,4 @@ html {
   width: 100%;
   height: 100%;
   padding: 10px 20px;
-}
-
-.building__right-wall--windows {
-  background-color: white;
 }
