@@ -25,27 +25,26 @@
   background-color: var(--main-bg-sky-color);
 }
 
-.bush-part--left {
+.bush--left .bush__leaves {
   background-color: var(--green4-color);
 }
 
-.bush-part--center {
+.bush--center .bush__leaves,
+.bush--right .bush__leaves {
   background-color: var(--green3-color);
 }
 
-.bush-part--right {
-  background-color: var(--green3-color);
-}
-
-.bush-part--single {
+.bush--single .bush__leaves {
   background-color: var(--green1-color);
 }
 
-.tree--1 .tree__leaves, .tree--4 .tree__leaves {
+.tree--1 .tree__leaves,
+.tree--4 .tree__leaves {
   background-color: var(--green2-color);
 }
 
-.tree--2 .tree__leaves, .tree--3 .tree__leaves {
+.tree--2 .tree__leaves,
+.tree--3 .tree__leaves {
   background-color: var(--green3-color);
 }
 

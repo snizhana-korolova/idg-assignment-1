@@ -91,20 +91,20 @@ html {
   z-index: 10;
 }
 
-.bush__part1 {
+.bush__leaves--left {
   height: 35px;
   width: 80px;
   border-radius: 100px / 90px 90px 0px 0px;
 }
 
-.bush__part2 {
+.bush__leaves--middle {
   height: 60px;
   width: 100px;
   border-radius: 100px / 90px 90px 0px 0px;
   margin-left: -50px;
 }
 
-.bush__part3 {
+.bush__leaves--right {
   height: 35px;
   width: 80px;
   border-radius: 100px / 90px 90px 0px 0px;
