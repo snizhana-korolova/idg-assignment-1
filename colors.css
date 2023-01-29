@@ -2,10 +2,11 @@
   --main-bg-ground-color: rgb(232, 241, 232);
   --main-bg-sky-color: rgb(224, 239, 246);
   --main-sky-cloud: rgb(161, 228, 244);
-  --green1-color: rgb(175, 214, 175);
-  --green2-color: rgb(150, 203, 150);
+  --green1-color: rgb(170, 211, 170);
+  --green2-color: rgb(125, 169, 125);
   --green3-color: rgb(72, 132, 72);
   --green4-color: rgb(34, 69, 34);
+  --tree-part-trunk-color: black;
 }
 
 .ground {
@@ -34,4 +35,16 @@
 
 .bush-part--single {
   background-color: var(--green1-color);
+}
+
+.tree-part--green2 {
+  background-color: var(--green2-color);
+}
+
+.tree-part--green3 {
+  background-color: var(--green3-color);
+}
+
+.tree-part--trunk {
+  background-color: var(--tree-part-trunk-color);
 }
