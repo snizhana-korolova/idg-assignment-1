@@ -41,15 +41,15 @@
   background-color: var(--green1-color);
 }
 
-.tree-part--green2 {
+.tree--1 .tree__leaves, .tree--4 .tree__leaves {
   background-color: var(--green2-color);
 }
 
-.tree-part--green3 {
+.tree--2 .tree__leaves, .tree--3 .tree__leaves {
   background-color: var(--green3-color);
 }
 
-.tree-part--trunk {
+.tree__trunk {
   background-color: var(--black-color);
 }
 

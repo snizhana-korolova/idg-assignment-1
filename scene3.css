@@ -120,7 +120,7 @@ html {
   height: 300px;
 }
 
-.forest-container__tree {
+.tree {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -157,27 +157,27 @@ html {
   left: 120px;
 }
 
-.tree__part1 {
+.tree__leaves--top {
   height: 35px;
   width: 35px;
   border-radius: 100px 100px 90px 90px;
 }
 
-.tree__part2 {
+.tree__leaves--middle {
   height: 40px;
   width: 40px;
   border-radius: 100px 100px 80px 80px;
   margin-top: -10px;
 }
 
-.tree__part3 {
+.tree__leaves--bottom {
   height: 50px;
   width: 50px;
   border-radius: 100px 100px 80px 80px / 80px 80px 100px 100px;
   margin-top: -10px;
 }
 
-.tree__part4 {
+.tree__trunk {
   height: 120px;
   width: 3px;
   border-radius: 100 / 0px 0px 0px 0px;
