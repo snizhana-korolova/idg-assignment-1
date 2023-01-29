@@ -90,7 +90,7 @@ html {
 }
 
 .bush--single {
-  bottom: 50%;
+  bottom: 30%;
   left: 20%;
 }
 
@@ -185,8 +185,16 @@ html {
 
 .industry {
   position: absolute;
-  right: 10%;
+  top: -100px;
+  right: 15%;
   width: 400px;
   height: 400px;
   border: solid 2px rgb(30, 28, 27);
+}
+
+.building__front-wall {
+  width: 140px;
+  height: 150px;
+  background-color: rgb(215, 92, 92);
+  clip-path: polygon(0% 100%, 0% 20%, 20% 0%, 80% 0%, 100% 20%, 100% 100%);
 }
