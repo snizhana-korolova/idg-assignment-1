@@ -195,7 +195,6 @@ html {
 
 .building {
   position: absolute;
-  border: solid 1px blue;
   width: 240px;
   height: 150px;
 }
@@ -239,7 +238,7 @@ html {
   background-color: black;
 }
 
-.right-wall__window {
+.building-small .right-wall__window {
   display: grid;
   grid-template-columns: repeat(3, 8px);
   grid-template-rows: 17px 17px;
@@ -283,4 +282,17 @@ html {
   background: black;
   left: 214px;
   transform: skew(47deg);
+}
+
+.building--large .right-wall__window {
+  display: grid;
+  grid-template-columns: repeat(2, 25px);
+  grid-template-rows: repeat(3, 12px);
+  grid-gap: 9px;
+  padding-top: 23px;
+  padding-left: 16px;
+}
+
+.building__right-wall--windows {
+  background-color: white;
 }
