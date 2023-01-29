@@ -17,7 +17,7 @@
   background-color: var(--main-bg-ground-color);
 }
 
-.cloud-container__cloud {
+.cloud__puff {
   background-color: var(--main-sky-cloud);
 }
 
