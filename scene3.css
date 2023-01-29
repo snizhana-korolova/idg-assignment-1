@@ -192,9 +192,27 @@ html {
   border: solid 2px rgb(30, 28, 27);
 }
 
+.building {
+  position: absolute;
+  border: solid 1px blue;
+  width: 240px;
+  height: 150px;
+}
+
 .building__front-wall {
   width: 140px;
   height: 150px;
   background-color: rgb(215, 92, 92);
   clip-path: polygon(0% 100%, 0% 20%, 20% 0%, 80% 0%, 100% 20%, 100% 100%);
 }
+
+.building__right-wall {
+  position: absolute;
+  width: 100px;
+  height: 120px;
+  background-color: rgb(7, 7, 7);
+  top: 30px;
+  left: 140px;
+}
+
+
