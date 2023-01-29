@@ -17,10 +17,6 @@ html {
   position: relative;
 }
 
-.background {
-  width: 100vw;
-}
-
 .ground {
   flex: 0 0 60%;
   position: relative;
