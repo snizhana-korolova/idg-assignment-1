@@ -60,7 +60,7 @@
 }
 
 .building__right-wall,
-.grid-window,
+.building__front-wall .window,
 .building--large .building__roof,
 .round-window,
 .building__second-floor__roof {
@@ -71,7 +71,7 @@
   background-color: var(--building-roof-green-color);
 }
 
-.window--grid-white,
+.window--white,
 .building__right-wall--windows {
   background-color: var(--building-window-white-color);
 }

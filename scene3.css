@@ -221,7 +221,7 @@ html {
   transform: skew(43deg);
   left: 126px;
 }
-.front-wall__window {
+.building--small .building__front-wall .window-group {
   display: grid;
   grid-template-columns: repeat(4, 13px);
   grid-template-rows: 13px 13px 28px;
@@ -231,7 +231,7 @@ html {
   padding-right: 20px;
 }
 
-.building--small .right-wall__window {
+.building--small .building__right-wall .window-group {
   display: grid;
   grid-template-columns: repeat(3, 8px);
   grid-template-rows: 17px 17px;
