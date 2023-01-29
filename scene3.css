@@ -215,4 +215,12 @@ html {
   left: 140px;
 }
 
-
+.building__roof {
+  position: absolute;
+  margin-right: 20px;
+  width: 100px;
+  height: 30px;
+  transform: skew(43deg);
+  background: #053b09;
+  left: 126px;
+}
