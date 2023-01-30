@@ -54,16 +54,16 @@
 
 .building__front-wall,
 .building--large .building__right-wall,
-.building__second-floor__front-wall,
-.building__second-floor__right-wall {
+.loft__front-wall,
+.loft__right-wall {
   background-color: var(--building-wall-pink1-color);
 }
 
 .building__right-wall,
 .building__front-wall .window,
 .building--large .building__roof,
-.round-window,
-.building__second-floor__roof {
+.loft__round-window,
+.loft__roof {
   background-color: var(--black-color);
 }
 
@@ -71,8 +71,7 @@
   background-color: var(--building-roof-green-color);
 }
 
-.window--white,
-.building__right-wall--windows {
+.window--white {
   background-color: var(--building-window-white-color);
 }
 

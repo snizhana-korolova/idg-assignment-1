@@ -270,7 +270,7 @@ html {
   transform: skew(47deg);
 }
 
-.building--large .right-wall__window {
+.building--large .window-group {
   display: grid;
   grid-template-columns: repeat(2, 25px);
   grid-template-rows: repeat(3, 12px);
@@ -279,13 +279,13 @@ html {
   padding-left: 16px;
 }
 
-.building__second-floor {
+.building__loft {
   position: absolute;
   left: 50px;
   top: -130px;
 }
 
-.building__second-floor__front-wall {
+.loft__front-wall {
   position: absolute;
   width: 124px;
   height: 100px;
@@ -294,7 +294,7 @@ html {
   left: 12px;
 }
 
-.round-window {
+.loft__round-window {
   position: absolute;
   width: 27px;
   height: 27px;
@@ -303,7 +303,7 @@ html {
   left: 45px;
 }
 
-.building__second-floor__right-wall {
+.loft__right-wall {
   position: absolute;
   width: 92px;
   height: 50px;
@@ -311,7 +311,7 @@ html {
   left: 135px;
 }
 
-.building__second-floor__roof {
+.loft__roof {
   position: absolute;
   width: 91px;
   height: 50px;
@@ -320,7 +320,7 @@ html {
   left: 105px;
 }
 
-.second-floor__right-wall--windows {
+.loft__right-wall .window-group {
   display: grid;
   grid-template-columns: repeat(2, 25px);
   grid-template-rows: repeat(2, 12px);
