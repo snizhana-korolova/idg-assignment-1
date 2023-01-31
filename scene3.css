@@ -101,6 +101,88 @@ html {
   z-index: 10;
 }
 
+.bush--single .bush__leaves {
+  position: relative;
+  animation: bush 5s ease-in infinite, bush-jiggle 0.5s ease-in-out infinite;
+}
+
+@keyframes bush {
+  0%,
+  50% {
+    background-color: rgb(170, 211, 170);
+  }
+  50%,
+  100% {
+    background-color: rgb(214, 62, 62);
+  }
+}
+
+@keyframes bush-jiggle {
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+
+  25% {
+    top: 10px;
+    left: 10px;
+  }
+
+  50% {
+    top: 0px;
+    left: 0px;
+  }
+
+  75% {
+    top: 10px;
+    left: -10px;
+  }
+
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+.bush--center .bush__leaves,
+.bush--right .bush__leaves {
+  animation: adult-bush1 3s ease-out 0s alternate infinite;
+}
+
+@keyframes adult-bush1 {
+  0% {
+    transform: scale(1);
+    background-color: rgb(72, 132, 72);
+    border-radius: 100%;
+  }
+  50% {
+    background-color: rgb(226, 18, 153);
+  }
+  100% {
+    transform: scale(2);
+    background-color: rgb(0, 21, 255);
+  }
+}
+
+.bush--left .bush__leaves {
+  animation: adult-bush2 3s ease-out 0s alternate infinite;
+}
+
+@keyframes adult-bush2 {
+  0% {
+    transform: scale(1);
+    background-color: rgb(34, 69, 34);
+    border-radius: 100%;
+  }
+  50% {
+    background-color: rgb(226, 18, 153);
+  }
+  100% {
+    transform: scale(2);
+    background-color: rgb(0, 21, 255);
+  }
+}
+
 .bush__leaves--left {
   height: 35px;
   width: 80px;
@@ -135,6 +217,19 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.tree:hover {
+  animation: tree 3s ease-in-out;
+}
+
+@keyframes tree {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(2);
+  }
 }
 
 .tree--1 {
