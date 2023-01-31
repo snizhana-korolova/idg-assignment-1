@@ -172,7 +172,6 @@ html {
   40% {
     transform: scale(1);
     background-color: rgb(72, 132, 72);
-    border-radius: 100%;
   }
   70% {
     background-color: rgb(226, 18, 153);
@@ -192,7 +191,6 @@ html {
   40% {
     transform: scale(1);
     background-color: rgb(34, 69, 34);
-    border-radius: 100%;
   }
   70% {
     background-color: rgb(226, 18, 153);
