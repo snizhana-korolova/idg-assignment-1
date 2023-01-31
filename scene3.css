@@ -29,6 +29,16 @@ html {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  animation: cloud 10s linear infinite;
+}
+
+@keyframes cloud {
+  from {
+    transform: translateX(1vw);
+  }
+  to {
+    transform: translateX(100vw);
+  }
 }
 
 .cloud--left {
@@ -125,12 +135,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* transition: width 0.5s, height 0.5s; */
 }
-/* .forest-container__tree:hover {
-  width: 150px;
-  height: 150px;
-} */
 
 .tree--1 {
   flex-direction: column;
