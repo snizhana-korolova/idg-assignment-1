@@ -32,7 +32,7 @@ html {
 }
 
 .cloud:nth-of-type(1) {
-  animation: cloud-step1 10s linear 0s 1, cloud-step2 14s linear 10s infinite;
+  animation: cloud-step1 12s linear 0s 1, cloud-step2 14s linear 12s infinite;
 }
 
 .cloud:nth-of-type(2) {
@@ -50,7 +50,7 @@ html {
 
 @keyframes cloud-step2 {
   0% {
-    transform: translateX(-80vw);
+    transform: translateX(-60vw);
   }
   100% {
     transform: translateX(100vw);
