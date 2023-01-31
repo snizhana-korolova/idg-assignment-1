@@ -29,14 +29,30 @@ html {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  animation: cloud 10s linear infinite;
 }
 
-@keyframes cloud {
-  from {
+.cloud:nth-of-type(1) {
+  animation: cloud-step1 10s linear 0s 1, cloud-step2 14s linear 10s infinite;
+}
+
+.cloud:nth-of-type(2) {
+  animation: cloud-step1 11s linear 0s 1, cloud-step2 15s linear 11s infinite;
+}
+
+@keyframes cloud-step1 {
+  0% {
     transform: translateX(1vw);
   }
-  to {
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+@keyframes cloud-step2 {
+  0% {
+    transform: translateX(-80vw);
+  }
+  100% {
     transform: translateX(100vw);
   }
 }
@@ -108,12 +124,14 @@ html {
 
 @keyframes bush {
   0%,
-  50% {
+  25% {
     background-color: rgb(170, 211, 170);
   }
-  50%,
-  100% {
-    background-color: rgb(214, 62, 62);
+  75% {
+    background-color: rgb(7, 28, 3);
+  }
+  25% {
+    background-color: rgb(170, 211, 170);
   }
 }
 
@@ -150,12 +168,13 @@ html {
 }
 
 @keyframes adult-bush1 {
-  0% {
+  0%,
+  40% {
     transform: scale(1);
     background-color: rgb(72, 132, 72);
     border-radius: 100%;
   }
-  50% {
+  70% {
     background-color: rgb(226, 18, 153);
   }
   100% {
@@ -169,12 +188,13 @@ html {
 }
 
 @keyframes adult-bush2 {
-  0% {
+  0%,
+  40% {
     transform: scale(1);
     background-color: rgb(34, 69, 34);
     border-radius: 100%;
   }
-  50% {
+  70% {
     background-color: rgb(226, 18, 153);
   }
   100% {
