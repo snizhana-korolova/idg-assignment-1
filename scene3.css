@@ -117,20 +117,19 @@ html {
   z-index: 10;
 }
 
-.bush--single .bush__leaves {
+.bush--single:hover .bush__leaves {
   position: relative;
-  animation: bush 5s ease-in infinite, bush-jiggle 0.5s ease-in-out infinite;
+  animation: bush 3s ease-in infinite, bush-jiggle 0.5s ease-in-out infinite;
 }
 
 @keyframes bush {
-  0%,
-  25% {
+  0% {
     background-color: rgb(170, 211, 170);
   }
-  75% {
+  40% {
     background-color: rgb(7, 28, 3);
   }
-  25% {
+  60% {
     background-color: rgb(170, 211, 170);
   }
 }
@@ -162,14 +161,13 @@ html {
   }
 }
 
-.bush--center .bush__leaves,
-.bush--right .bush__leaves {
-  animation: adult-bush1 3s ease-out 0s alternate infinite;
+.bush--center:hover .bush__leaves,
+.bush--right:hover .bush__leaves {
+  animation: adult-bush1 1s ease-out 0s alternate infinite;
 }
 
 @keyframes adult-bush1 {
-  0%,
-  40% {
+  0% {
     transform: scale(1);
     background-color: rgb(72, 132, 72);
   }
@@ -182,13 +180,12 @@ html {
   }
 }
 
-.bush--left .bush__leaves {
-  animation: adult-bush2 3s ease-out 0s alternate infinite;
+.bush--left:hover .bush__leaves {
+  animation: adult-bush2 1s ease-out 0s alternate infinite;
 }
 
 @keyframes adult-bush2 {
-  0%,
-  40% {
+  0% {
     transform: scale(1);
     background-color: rgb(34, 69, 34);
   }
@@ -356,6 +353,23 @@ html {
   grid-gap: 13px;
   padding-top: 30px;
   padding-left: 25px;
+}
+
+.building--small .building__front-wall .window-group .window {
+  animation: window-light 2s ease-in-out 0.5s infinite;
+}
+
+.building--large .building__loft .loft__round-window {
+  animation: window-light 2s ease-in-out infinite;
+}
+
+@keyframes window-light {
+  0% {
+    background-color: black;
+  }
+  100% {
+    background-color: rgb(218, 193, 32);
+  }
 }
 
 .building--large {
