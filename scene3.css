@@ -235,7 +235,7 @@ html {
 }
 
 .tree:hover {
-  animation: tree 3s ease-in-out;
+  animation: tree 1s ease-in-out, tree-rotate 1s linear infinite;
 }
 
 @keyframes tree {
@@ -244,6 +244,15 @@ html {
   }
   100% {
     transform: scale(2);
+  }
+}
+
+@keyframes tree-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 
